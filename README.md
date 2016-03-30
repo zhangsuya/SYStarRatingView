@@ -1,0 +1,2 @@
+# SYStarRatingView
+Multicolored Star Rating 
