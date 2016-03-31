@@ -42,14 +42,15 @@
 {
     self = [super initWithFrame:frame];
     if (self) {
-        _numberOfStar = number;
         [self commonInit];
+        _numberOfStar = number;
     }
     return self;
 }
 
 - (void)commonInit
 {
+    _numberOfStar = kNUMBER_OF_STAR;
     self.foregroundViewColor = [UIColor clearColor];
     self.backgroundViewColor = [UIColor clearColor];
     self.foregroundImageName = @"foregroundStar";
