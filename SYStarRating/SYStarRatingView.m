@@ -26,7 +26,6 @@
 {
     [super awakeFromNib];
     
-    _numberOfStar = kNUMBER_OF_STAR;
     [self commonInit];
 }
 
