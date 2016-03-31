@@ -9,6 +9,7 @@
 #import "SYStarRatingView.h"
 #import "UIImage+Tint.h"
 @interface SYStarRatingView()
+@property (nonatomic, assign, readonly) NSInteger numberOfStar;
 @property (nonatomic, strong) UIView *starBackgroundView;
 @property (nonatomic, strong) UIView *starForegroundView;
 @property (nonatomic, strong) NSMutableArray *foregroundImageViewArray;

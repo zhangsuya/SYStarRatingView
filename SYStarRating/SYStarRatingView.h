@@ -19,7 +19,6 @@
 
 @interface SYStarRatingView : UIView
 
-@property (nonatomic, assign) NSInteger numberOfStar;
 /**
  *  前景图填充颜色 默认clearColor
  */
