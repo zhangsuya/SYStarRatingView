@@ -77,14 +77,7 @@
     [self setScore:score withAnimation:isAnimate completion:^(BOOL finished){}];
 }
 
-//-(void)setForegroundImageName:(NSString *)foregroundImageName
-//{
-//    self.foregroundImageName = foregroundImageName;
-//    if (self.starForegroundView) {
-//        [self.starForegroundView removeFromSuperview];
-//    }
-//    self.starForegroundView = [self buidlStarViewWithImageName:self.foregroundImageName];
-//}
+
 /**
  *  设置控件分数
  *
