@@ -63,6 +63,11 @@
     [self registerForKVO];
 }
 
+-(void)dealloc
+{
+    [self unregisterFromKVO];
+}
+
 #pragma mark -
 #pragma mark - Set Score
 
